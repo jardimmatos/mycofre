@@ -5,6 +5,18 @@ Minha gestão de senhas
 [![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
+#### Execute as primeira migrations
+
+    $ make first-migrations
+
+
+#### Copiar arquivo .env.example
+
+    $ cp .env.example .ev
+
+#### Gerar uma string 32 bits para a ENVVAR: CRYPT_KEY
+
+
 ## Settings
 
 Moved to [settings](https://cookiecutter-django.readthedocs.io/en/latest/1-getting-started/settings.html).
