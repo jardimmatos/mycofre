@@ -1,9 +1,9 @@
-from cofre.models import Cofre
 from django import forms
 from django.contrib import admin
 from django.template.loader import render_to_string
 from django.utils.safestring import mark_safe
 
+from .models import Cofre
 from .utils import criptografar
 from .utils import descriptografar
 
