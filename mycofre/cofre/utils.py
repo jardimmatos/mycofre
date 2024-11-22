@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 env = environ.Env()
 
 # Gerar Nova Chave de 32 bits
-crypt_key_env = env.str("CRYPT_KEY", "^%^(*)")
+crypt_key_env = env.str("CRYPT_KEY", "jGlhb29YSl9Tz6fWb2vl4T_U9Na8fdy0hgnHCh4H8Og=")
 CRYPT_KEY = crypt_key_env.encode("utf-8")
 
 f = Fernet(CRYPT_KEY)
